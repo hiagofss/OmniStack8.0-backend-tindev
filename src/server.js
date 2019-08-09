@@ -10,7 +10,7 @@ mongoose.connect(
   { useNewUrlParser: true }
 );
 
-server.user(cors());
+server.use(cors());
 
 server.use(express.json());
 
